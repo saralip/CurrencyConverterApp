@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  CurrencyConverter
 //
-//  Created by Sara Lipowsky on 4/3/17.
-//  Copyright © 2017 Sara Lipowsky. All rights reserved.
+//  Created by Sara Lipowsky & Christopher Villanueva on 4/3/17.
+//  Copyright © 2017 Sara Lipowsky & Christopher Villanueva. All rights reserved.
 //
 
 import UIKit

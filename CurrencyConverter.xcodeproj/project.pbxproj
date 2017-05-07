@@ -11,7 +11,6 @@
 		350215741EBEAD6E00DBCDE3 /* CurrTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350215731EBEAD6E00DBCDE3 /* CurrTableViewController.swift */; };
 		350215761EBEAEFB00DBCDE3 /* SampleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350215751EBEAEFB00DBCDE3 /* SampleItem.swift */; };
 		3517521C1E93502B007CB3E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3517521B1E93502B007CB3E6 /* AppDelegate.swift */; };
-		3517521E1E93502B007CB3E6 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3517521D1E93502B007CB3E6 /* PickerViewController.swift */; };
 		351752211E93502B007CB3E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3517521F1E93502B007CB3E6 /* Main.storyboard */; };
 		351752231E93502B007CB3E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 351752221E93502B007CB3E6 /* Assets.xcassets */; };
 		351752261E93502B007CB3E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 351752241E93502B007CB3E6 /* LaunchScreen.storyboard */; };
@@ -35,7 +34,6 @@
 		350215751EBEAEFB00DBCDE3 /* SampleItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleItem.swift; sourceTree = "<group>"; };
 		351752181E93502B007CB3E6 /* CurrencyConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3517521B1E93502B007CB3E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3517521D1E93502B007CB3E6 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		351752201E93502B007CB3E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		351752221E93502B007CB3E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		351752251E93502B007CB3E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -90,7 +88,6 @@
 			children = (
 				3517521B1E93502B007CB3E6 /* AppDelegate.swift */,
 				3533CA8E1EA5C5CA00785354 /* YQL.swift */,
-				3517521D1E93502B007CB3E6 /* PickerViewController.swift */,
 				3517521F1E93502B007CB3E6 /* Main.storyboard */,
 				351752221E93502B007CB3E6 /* Assets.xcassets */,
 				351752241E93502B007CB3E6 /* LaunchScreen.storyboard */,
@@ -236,7 +233,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				350215761EBEAEFB00DBCDE3 /* SampleItem.swift in Sources */,
-				3517521E1E93502B007CB3E6 /* PickerViewController.swift in Sources */,
 				350215741EBEAD6E00DBCDE3 /* CurrTableViewController.swift in Sources */,
 				350215721EBEAA5000DBCDE3 /* CurrTableViewCell.swift in Sources */,
 				3517521C1E93502B007CB3E6 /* AppDelegate.swift in Sources */,
@@ -380,6 +376,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CurrencyConverter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SARALIP.CurrencyConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -392,6 +389,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CurrencyConverter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SARALIP.CurrencyConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F8F03ACA05527671807582FDE1CA0AE46E0F5CC6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F8F03ACA05527671807582FDE1CA0AE46E0F5CC6" : 9223372036854775807,
+    "2851574CCFB576E6B0FCB6FD75810E17D5568997" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D5A994AB-B5FC-497D-871E-B901B6CCD0C7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F8F03ACA05527671807582FDE1CA0AE46E0F5CC6" : "CurrencyConverterApp\/",
+    "2851574CCFB576E6B0FCB6FD75810E17D5568997" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CurrencyConverter",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CurrencyConverter.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/saralip\/CurrencyConverterApp\/tree\/chris.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2851574CCFB576E6B0FCB6FD75810E17D5568997"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/saralip\/CurrencyConverterApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F8F03ACA05527671807582FDE1CA0AE46E0F5CC6"
+    }
+  ]
+}

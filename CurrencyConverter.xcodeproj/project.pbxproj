@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		350215721EBEAA5000DBCDE3 /* CurrTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350215711EBEAA5000DBCDE3 /* CurrTableViewCell.swift */; };
+		350215741EBEAD6E00DBCDE3 /* CurrTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350215731EBEAD6E00DBCDE3 /* CurrTableViewController.swift */; };
+		350215761EBEAEFB00DBCDE3 /* SampleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350215751EBEAEFB00DBCDE3 /* SampleItem.swift */; };
 		3517521C1E93502B007CB3E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3517521B1E93502B007CB3E6 /* AppDelegate.swift */; };
 		3517521E1E93502B007CB3E6 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3517521D1E93502B007CB3E6 /* PickerViewController.swift */; };
 		351752211E93502B007CB3E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3517521F1E93502B007CB3E6 /* Main.storyboard */; };
 		351752231E93502B007CB3E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 351752221E93502B007CB3E6 /* Assets.xcassets */; };
 		351752261E93502B007CB3E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 351752241E93502B007CB3E6 /* LaunchScreen.storyboard */; };
 		351752311E93502B007CB3E6 /* CurrencyConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351752301E93502B007CB3E6 /* CurrencyConverterTests.swift */; };
+		3533CA8F1EA5C5CA00785354 /* YQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3533CA8E1EA5C5CA00785354 /* YQL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		350215711EBEAA5000DBCDE3 /* CurrTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrTableViewCell.swift; sourceTree = "<group>"; };
+		350215731EBEAD6E00DBCDE3 /* CurrTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrTableViewController.swift; sourceTree = "<group>"; };
+		350215751EBEAEFB00DBCDE3 /* SampleItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleItem.swift; sourceTree = "<group>"; };
 		351752181E93502B007CB3E6 /* CurrencyConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3517521B1E93502B007CB3E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3517521D1E93502B007CB3E6 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +43,7 @@
 		3517522C1E93502B007CB3E6 /* CurrencyConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		351752301E93502B007CB3E6 /* CurrencyConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterTests.swift; sourceTree = "<group>"; };
 		351752321E93502B007CB3E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3533CA8E1EA5C5CA00785354 /* YQL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YQL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,9 @@
 		3517520F1E93502B007CB3E6 = {
 			isa = PBXGroup;
 			children = (
+				35E0150A1EBE8E2200EFCA43 /* Models */,
+				35E015071EBE8D5600EFCA43 /* View Controllers */,
+				35E015041EBE8C1C00EFCA43 /* Views */,
 				3517521A1E93502B007CB3E6 /* CurrencyConverter */,
 				3517522F1E93502B007CB3E6 /* CurrencyConverterTests */,
 				351752191E93502B007CB3E6 /* Products */,
@@ -78,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				3517521B1E93502B007CB3E6 /* AppDelegate.swift */,
+				3533CA8E1EA5C5CA00785354 /* YQL.swift */,
 				3517521D1E93502B007CB3E6 /* PickerViewController.swift */,
 				3517521F1E93502B007CB3E6 /* Main.storyboard */,
 				351752221E93502B007CB3E6 /* Assets.xcassets */,
@@ -94,6 +106,30 @@
 				351752321E93502B007CB3E6 /* Info.plist */,
 			);
 			path = CurrencyConverterTests;
+			sourceTree = "<group>";
+		};
+		35E015041EBE8C1C00EFCA43 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				350215711EBEAA5000DBCDE3 /* CurrTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		35E015071EBE8D5600EFCA43 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				350215731EBEAD6E00DBCDE3 /* CurrTableViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		35E0150A1EBE8E2200EFCA43 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				350215751EBEAEFB00DBCDE3 /* SampleItem.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +235,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				350215761EBEAEFB00DBCDE3 /* SampleItem.swift in Sources */,
 				3517521E1E93502B007CB3E6 /* PickerViewController.swift in Sources */,
+				350215741EBEAD6E00DBCDE3 /* CurrTableViewController.swift in Sources */,
+				350215721EBEAA5000DBCDE3 /* CurrTableViewCell.swift in Sources */,
 				3517521C1E93502B007CB3E6 /* AppDelegate.swift in Sources */,
+				3533CA8F1EA5C5CA00785354 /* YQL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +446,7 @@
 				351752371E93502B007CB3E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		351752381E93502B007CB3E6 /* Build configuration list for PBXNativeTarget "CurrencyConverterTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +455,7 @@
 				3517523A1E93502B007CB3E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

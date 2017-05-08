@@ -10,6 +10,7 @@
 import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    @IBOutlet weak var dollarTextField: UITextField!
     
 
     func getRate(_ country1: String, _ country2: String) -> String{

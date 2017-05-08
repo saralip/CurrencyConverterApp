@@ -11,7 +11,10 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-
+    //MARK:: Properties
+    
+    @IBOutlet weak var inputUStextField: UITextField!
+    
     func getRate(_ country1: String, _ country2: String) -> String{
         let myYQL = YQL()
         let queryString = "select * from yahoo.finance.xchange where pair in (\"" + country1 + country2 + "\")"

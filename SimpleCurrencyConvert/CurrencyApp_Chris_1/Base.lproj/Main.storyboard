@@ -71,8 +71,6 @@
                                             <outlet property="countryFlag" destination="oNe-kk-O6Z" id="C9R-WG-zhf"/>
                                             <outlet property="countryLabel" destination="sh7-MB-oHa" id="EJk-ul-1v9"/>
                                             <outlet property="finalExchangeValue" destination="OsK-Aa-dPr" id="fJe-Mq-xEk"/>
-                                            <outlet property="myImage" destination="oNe-kk-O6Z" id="5Mj-9m-bxG"/>
-                                            <outlet property="myLabel" destination="sh7-MB-oHa" id="nfj-0S-dgh"/>
                                             <outlet property="theRate" destination="zuB-XT-4JI" id="SLE-dc-i6s"/>
                                         </connections>
                                     </tableViewCell>

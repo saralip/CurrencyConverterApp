@@ -68,7 +68,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     
     let firstCountry = ["USD"  , "EUR", "CAD" , "MXN" ]
-    let secondCountry = ["USD" , "EUR" , "CAD" , "MXN"]
+    //let firstCountry = "USD"
+    let secondCountry = ["USD", "EUR" , "CAD" , "MXN"]
     //var pickerData = ["Dollar", "Euro", "Yen"]
     var i = 0
     

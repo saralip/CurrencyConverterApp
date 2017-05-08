@@ -9,7 +9,7 @@
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D5A994AB-B5FC-497D-871E-B901B6CCD0C7",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "F8F03ACA05527671807582FDE1CA0AE46E0F5CC6" : "CurrencyConverterApp\/",
+    "F8F03ACA05527671807582FDE1CA0AE46E0F5CC6" : "CurrencyConverter\/",
     "2851574CCFB576E6B0FCB6FD75810E17D5568997" : ".."
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "CurrencyConverter",

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CurrencyConverter.xcscheme</key>
+		<key>CurrencyApp_Chris_1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>351752171E93502B007CB3E6</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>3517522B1E93502B007CB3E6</key>
+		<key>63B7B3C31EAEEA9800C7A91A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

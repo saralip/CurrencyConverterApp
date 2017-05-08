@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "351752171E93502B007CB3E6"
-               BuildableName = "CurrencyConverter.app"
-               BlueprintName = "CurrencyConverter"
-               ReferencedContainer = "container:CurrencyConverter.xcodeproj">
+               BlueprintIdentifier = "63B7B3C31EAEEA9800C7A91A"
+               BuildableName = "CurrencyApp_Chris_1.app"
+               BlueprintName = "CurrencyApp_Chris_1"
+               ReferencedContainer = "container:CurrencyApp_Chris_1.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,24 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3517522B1E93502B007CB3E6"
-               BuildableName = "CurrencyConverterTests.xctest"
-               BlueprintName = "CurrencyConverterTests"
-               ReferencedContainer = "container:CurrencyConverter.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "351752171E93502B007CB3E6"
-            BuildableName = "CurrencyConverter.app"
-            BlueprintName = "CurrencyConverter"
-            ReferencedContainer = "container:CurrencyConverter.xcodeproj">
+            BlueprintIdentifier = "63B7B3C31EAEEA9800C7A91A"
+            BuildableName = "CurrencyApp_Chris_1.app"
+            BlueprintName = "CurrencyApp_Chris_1"
+            ReferencedContainer = "container:CurrencyApp_Chris_1.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "351752171E93502B007CB3E6"
-            BuildableName = "CurrencyConverter.app"
-            BlueprintName = "CurrencyConverter"
-            ReferencedContainer = "container:CurrencyConverter.xcodeproj">
+            BlueprintIdentifier = "63B7B3C31EAEEA9800C7A91A"
+            BuildableName = "CurrencyApp_Chris_1.app"
+            BlueprintName = "CurrencyApp_Chris_1"
+            ReferencedContainer = "container:CurrencyApp_Chris_1.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -84,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "351752171E93502B007CB3E6"
-            BuildableName = "CurrencyConverter.app"
-            BlueprintName = "CurrencyConverter"
-            ReferencedContainer = "container:CurrencyConverter.xcodeproj">
+            BlueprintIdentifier = "63B7B3C31EAEEA9800C7A91A"
+            BuildableName = "CurrencyApp_Chris_1.app"
+            BlueprintName = "CurrencyApp_Chris_1"
+            ReferencedContainer = "container:CurrencyApp_Chris_1.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

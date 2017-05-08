@@ -10,9 +10,11 @@
 import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    @IBOutlet weak var dollarTextField: UITextField!
     
-
+    //MARK:: Properties
+    
+    @IBOutlet weak var inputUStextField: UITextField!
+    
     func getRate(_ country1: String, _ country2: String) -> String{
         let myYQL = YQL()
         let queryString = "select * from yahoo.finance.xchange where pair in (\"" + country1 + country2 + "\")"
@@ -66,7 +68,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     
     let firstCountry = ["USD"  , "EUR", "CAD" , "MXN" ]
-    let secondCountry = ["USD" , "EUR" , "CAD" , "MXN"]
+    //let firstCountry = "USD"
+    let secondCountry = ["USD", "EUR" , "CAD" , "MXN"]
     //var pickerData = ["Dollar", "Euro", "Yen"]
     var i = 0
     
@@ -82,8 +85,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! ViewControllerTableViewCell
         
-        cell.myLabel.text = firstCountry [indexPath.row]
-        cell.myImage.image = UIImage(named: (firstCountry)[indexPath.row])
+        cell.countryLabel.text = firstCountry [indexPath.row]
+        cell.countryFlag.image = UIImage(named: (firstCountry)[indexPath.row])
+        //cell.theRate.text = getRate()
         return(cell)
     }
 }

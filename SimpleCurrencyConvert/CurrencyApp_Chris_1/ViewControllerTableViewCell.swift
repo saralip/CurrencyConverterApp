@@ -10,8 +10,12 @@ import UIKit
 
 class ViewControllerTableViewCell: UITableViewCell {
     
-    @IBOutlet weak var myLabel: UILabel!
-    @IBOutlet weak var myImage: UIImageView!
+    @IBOutlet weak var countryFlag: UIImageView!
+    @IBOutlet weak var countryLabel: UILabel!
+    
+    @IBOutlet weak var theRate: UILabel!
+    @IBOutlet weak var finalExchangeValue: UILabel!
+    
  
     override func awakeFromNib() {
         super.awakeFromNib()

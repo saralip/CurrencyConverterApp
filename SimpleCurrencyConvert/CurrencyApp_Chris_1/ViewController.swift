@@ -84,8 +84,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! ViewControllerTableViewCell
         
-        cell.myLabel.text = firstCountry [indexPath.row]
-        cell.myImage.image = UIImage(named: (firstCountry)[indexPath.row])
+        cell.countryLabel.text = firstCountry [indexPath.row]
+        cell.countryFlag.image = UIImage(named: (firstCountry)[indexPath.row])
+        //cell.theRate.text = getRate()
         return(cell)
     }
 }

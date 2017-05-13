@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35BADF871EC6EDB900A944D5 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BADF861EC6EDB900A944D5 /* PickerViewController.swift */; };
 		6311B6991EC6AC17005E22E0 /* DATA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6311B6981EC6AC17005E22E0 /* DATA.swift */; };
 		631B25D91EC0CFD00067CBB7 /* ViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631B25D81EC0CFD00067CBB7 /* ViewControllerTableViewCell.swift */; };
 		63B7B3C81EAEEA9800C7A91A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B7B3C71EAEEA9800C7A91A /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35BADF861EC6EDB900A944D5 /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		6311B6981EC6AC17005E22E0 /* DATA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DATA.swift; sourceTree = "<group>"; };
 		631B25D81EC0CFD00067CBB7 /* ViewControllerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTableViewCell.swift; sourceTree = "<group>"; };
 		63B7B3C41EAEEA9800C7A91A /* CurrencyApp_Chris_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyApp_Chris_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +71,7 @@
 				63B7B3CE1EAEEA9800C7A91A /* Assets.xcassets */,
 				63B7B3D01EAEEA9800C7A91A /* LaunchScreen.storyboard */,
 				63B7B3D31EAEEA9800C7A91A /* Info.plist */,
+				35BADF861EC6EDB900A944D5 /* PickerViewController.swift */,
 			);
 			path = CurrencyApp_Chris_1;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				63B7B3CA1EAEEA9800C7A91A /* ViewController.swift in Sources */,
 				63B7B3C81EAEEA9800C7A91A /* AppDelegate.swift in Sources */,
 				6311B6991EC6AC17005E22E0 /* DATA.swift in Sources */,
+				35BADF871EC6EDB900A944D5 /* PickerViewController.swift in Sources */,
 				631B25D91EC0CFD00067CBB7 /* ViewControllerTableViewCell.swift in Sources */,
 				63B7B3E81EAF001700C7A91A /* YQL.swift in Sources */,
 			);

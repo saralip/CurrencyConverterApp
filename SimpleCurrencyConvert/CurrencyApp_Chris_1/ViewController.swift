@@ -25,7 +25,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     let semaphore = DispatchSemaphore(value: 1)
     let mySingleton = Singleton.sharedInstance
     let semaphore2 = DispatchSemaphore(value:1)
-    var userInput = 0.00
+    //var userInput = 0.00
+    
+    //var userInput = DiscountCalc.shared
+
+    
+    var passedValue: String?
+    var passedCountry: Int?
     
     func getRate(_ country: String,_ row:Int) -> Void
     {
@@ -79,13 +85,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         //hide table view
-        theTableView.isHidden = true
+        //theTableView.isHidden = true
         //button pressed?
         
         // Do any additional setup after loading the view, typically from a nib.
         
-        //tying curr picker to the view
-        
+
+        //if let myPassedData = passedValue {
+            print(passedValue)
+        //}
     }
     
     override func didReceiveMemoryWarning() {
@@ -96,7 +104,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     @IBAction func convertButton(_ sender: Any) {
         theTableView.isHidden = false
-        userInput = Double(inputUStextField.text!)!
+        //userInput = Double(inputUStextField.text!)!
         
         //calculate and display
         theTableView.reloadData()
@@ -112,12 +120,17 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     
     
+    
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
         return (countryList.count)  //returns just the number of rows in the list
     }
     
     //create cells BY RECURSION!
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
+        
+
+        let dollar = Double(passedValue!)
+        //let countryIndex = passedCountry
         
 
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! ViewControllerTableViewCell
@@ -132,10 +145,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.countryFlag.image = UIImage(named: (countryList)[indexPath.row])
         cell.countryLabel.text = countryList [indexPath.row]
         cell.theRate.text = mySingleton.data[indexPath.row]
+        let formatRate = Double(mySingleton.data[indexPath.row])
+        cell.finalExchangeValue.text = String(dollar! * formatRate!)
+        
         //convert rate from string to float
         //multiply by text field entry
     //    if indexPath.row == 5{
-            var rateFloat: [Double] = [0, 0, 0, 0, 0, 0]
+            /*var rateFloat: [Double] = [0, 0, 0, 0, 0, 0]
       
             var finalAmount:Double
             print("FOR LOOP")
@@ -145,11 +161,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 print(rateFloat[i])
             }
             for i in 0...5{
-                finalAmount = rateFloat[i] * userInput
+                finalAmount = rateFloat[i] *
                 cell.finalExchangeValue.text = String(finalAmount)
                // return(cell)
             }
-            
+            */
     //    }
         return(cell)
     }

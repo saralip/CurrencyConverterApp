@@ -10,20 +10,21 @@
 import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    
+    let data = exchangeModel.shared
     //MARK:: Properties
     
     @IBOutlet weak var inputUStextField: UITextField!
-    func getRate(_ country1: String) -> String
+    func getRate(_ country1: String)
     {
         let myYQL = YQL()
         let country2 = "USD"
         
         let queryString = "select * from yahoo.finance.xchange where pair in (\"" + country1 + country2 + "\")"
-        var rate = "1"
+        //var rate = "1"
         // Network session is asyncronous so use a closure to act upon data once data is returned
         myYQL.query(queryString)
         {
+            
             //var rate = "1"
             jsonDict in
             // With the resulting jsonDict, pull values outs
@@ -45,16 +46,21 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             
             //RunLoop.main.run()
             print(country1)
-            rate = rateDict["Rate"] as! String
-            print(rate)
+            self.data.rate = rateDict["Rate"] as! String
+            for i in 0...3{
+                self.data.rateArray[i] = rateDict["Rate"] as! String
+            }
+            print(self.data.rate)
+
+            //exchangeModel.rate
             
         }
         
         // Needed to let async operation finish
         // Could handle with semaphores or closures instead...
         //RunLoop.main.run()
-        
-        return rate
+
+        //return self.data.rate
     }
     
     
@@ -88,12 +94,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     //create cells BY RECURSION!
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
-        
+       //let data = exchangeModel.shared
+
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! ViewControllerTableViewCell
         
         cell.countryLabel.text = firstCountry [indexPath.row]
         cell.countryFlag.image = UIImage(named: (firstCountry)[indexPath.row])
+       // for i in 0...4
         cell.theRate.text = getRate(firstCountry[indexPath.row])
+
         return(cell)
     }
 }

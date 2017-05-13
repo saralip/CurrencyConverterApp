@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "0820"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -17,20 +17,6 @@
                BlueprintIdentifier = "63B7B3C31EAEEA9800C7A91A"
                BuildableName = "CurrencyApp_Chris_1.app"
                BlueprintName = "CurrencyApp_Chris_1"
-               ReferencedContainer = "container:CurrencyApp_Chris_1.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "NO"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "63B7B3D71EAEEA9800C7A91A"
-               BuildableName = "CurrencyApp_Chris_1Tests.xctest"
-               BlueprintName = "CurrencyApp_Chris_1Tests"
                ReferencedContainer = "container:CurrencyApp_Chris_1.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -75,13 +61,6 @@
             ReferencedContainer = "container:CurrencyApp_Chris_1.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = "OS_ACTIVITY_MODE"
-            value = "disable"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>

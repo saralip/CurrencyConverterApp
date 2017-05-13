@@ -14,7 +14,7 @@ import Foundation
 
 
 class Singleton: NSObject {
-    var data = String()
+    var data: [String]
     
     static let sharedInstance:Singleton = {
         let instance = Singleton ()
@@ -24,6 +24,6 @@ class Singleton: NSObject {
 
     override init() {
      
-        data = "My String"
+        data = ["0", "0", "0", "0", "0", "0" ]
     }
 }
